@@ -4,6 +4,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  /*Colors*/
+  --mod-violet: hsl(263, 55%, 52%);
+  --v-d-gray-blue: hsl(217, 19%, 35%);
+  --v-d-black-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 81%);
+  --l-gray-blue: hsl(210, 46%, 95%);
+
+  /*Fonts*/
+  --font-fam: "Barlow Semi Condensed", sans-serif;
+  --small-weight: 500;
+  --large-weight: 600;
+  --body-font-size: 0.813rem; /*13px*/
+
+  /*Other*/
+  --background-img: url(images/bg-pattern-quotation.svg);
+}
+
+body {
+  height: 100vh;
+  background-color: var(--l-gray-blue);
+}
+
 
 
 
