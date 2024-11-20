@@ -35,6 +35,7 @@ body {
   grid-template-areas: 
   "daniel daniel john kira"
   "jean pat pat kira";
+  gap: 1.5rem;
 }
 
 
