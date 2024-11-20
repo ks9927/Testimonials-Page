@@ -39,7 +39,7 @@ body {
 }
 
 .grid-container > * {
-  padding: 20px;
+  padding: 30px;
   border-radius: 15px;
 }
 
@@ -79,6 +79,7 @@ body {
 
 .title {
   font-weight: var(--large-weight);
+  margin-top: 1rem;
 }
 
 .verified {
@@ -87,6 +88,7 @@ body {
 
 .description {
   opacity: 70%;
+  margin-top: 1rem;
 }
 
 
