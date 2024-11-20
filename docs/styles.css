@@ -26,7 +26,39 @@
 body {
   height: 100vh;
   background-color: var(--l-gray-blue);
+  font-family: var(--font-fam);
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 
+  "daniel daniel john kira"
+  "jean pat pat kira";
+}
+
+
+
+.daniel-div {
+  grid-area: daniel;
+}
+
+.johnathan-div {
+  grid-area: john;
+}
+
+.kira-div {
+  grid-area: kira;
+}
+
+.jeanette-div {
+  grid-area: jean;
+}
+
+.patrick-div {
+  grid-area: pat;
+}
+
 
 
 
