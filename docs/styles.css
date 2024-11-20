@@ -38,26 +38,55 @@ body {
   gap: 1.5rem;
 }
 
-
+.grid-container > * {
+  padding: 20px;
+  border-radius: 15px;
+}
 
 .daniel-div {
   grid-area: daniel;
+  background-color: var(--mod-violet);
+  color: var(--white);
 }
 
 .johnathan-div {
   grid-area: john;
+  background-color: var(--v-d-gray-blue);
+  color: var(--white);
 }
 
 .kira-div {
   grid-area: kira;
+  background-color: var(--white);
+  color: var(--v-d-black-blue);
 }
 
 .jeanette-div {
   grid-area: jean;
+  background-color: var(--white);
+  color: var(--v-d-black-blue);
 }
 
 .patrick-div {
   grid-area: pat;
+  background-color: var(--v-d-black-blue);
+  color: var(--white);
+}
+
+.author-photo {
+  border-radius: 50px;
+}
+
+.title {
+  font-weight: var(--large-weight);
+}
+
+.verified {
+  opacity: 50%;
+}
+
+.description {
+  opacity: 70%;
 }
 
 
