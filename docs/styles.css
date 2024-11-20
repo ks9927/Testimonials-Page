@@ -86,6 +86,11 @@ body {
   opacity: 50%;
 }
 
+.author-info {
+  display: inline-block;
+  vertical-align: auto;
+  margin-left: 0.5rem;
+}
 .description {
   opacity: 70%;
   margin-top: 1rem;
