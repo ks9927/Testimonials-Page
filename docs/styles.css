@@ -29,6 +29,8 @@ body {
   font-family: var(--font-fam);
 }
 
+
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -36,6 +38,7 @@ body {
   "daniel daniel john kira"
   "jean pat pat kira";
   gap: 1.5rem;
+  margin: 3.5rem;
 }
 
 .grid-container > * {
